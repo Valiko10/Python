@@ -116,9 +116,17 @@
 
 
 # 20
-def parolni_bahola(parol):
-    if len(parol ) >= 8:
-        return 'kuchli parol'
-    else : return 'kuchsiz parol'
-print(parolni_bahola('asd'))
+# def parolni_bahola(parol):
+#     if len(parol ) >= 8:
+#         return 'kuchli parol'
+#     else : return 'kuchsiz parol'
+# print(parolni_bahola('asd'))
 
+
+def teskari_sanash(son):
+    if son == 0:
+        return
+    print(son)
+    teskari_sanash(son-1)
+
+teskari_sanash(10)
