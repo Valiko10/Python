@@ -27,7 +27,6 @@
 
 
 
-
 # 1
 # def faktorial(n):
 #    if n == 1 :
@@ -93,7 +92,10 @@
 #             unlilar +=1
 #     return unlilar
 # print(unli_aniqla())
-            
+
+# 17
+# x = lambda a : a**3
+# print(x(5))        
 
 # 18
 # def kichchisini_top(a,b,c):
@@ -123,10 +125,20 @@
 # print(parolni_bahola('asd'))
 
 
-def teskari_sanash(son):
-    if son == 0:
-        return
-    print(son)
-    teskari_sanash(son-1)
+# x = lambda a : a**3
+# print(x(5))
 
-teskari_sanash(10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
