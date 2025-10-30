@@ -47,7 +47,7 @@ import math
 #         return matn[-1] + teskarilash(matn[:-1])
 # print(teskarilash('ulugbek'))
 
-# 7
+# 8
 # def royhat_yigindisi(royhat):
 #     if len(royhat) == 0 :
 #         return 0
@@ -56,7 +56,16 @@ import math
 # print(royhat_yigindisi([10,20,30,40,50]))
 
 # 9
-
+# def royhatdagi_max(royhat):
+#     if len(royhat) == 0 :
+#         return 0 
+#     else:
+#         eng_katta = royhatdagi_max(royhat[1:])
+#         if royhat[0] > eng_katta:
+#             return royhat[0]
+#         else:
+#             return eng_katta
+# print(royhatdagi_max([10,20,30,40,50,4,5,80]))
 
 
 
